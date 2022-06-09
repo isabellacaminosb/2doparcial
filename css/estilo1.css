@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body{ font-family: 'Bebas Neue', cursive; 
+	font-size: 80%;}
+
+
+*{ margin: 0; padding: 0;}
+
+h1{ color: #ffffff; font-size: 3em; }
+h3{ color: #ffffff; }
+h4{	color:  #ffffff;}
+
+
+
+main{ 
+	width: 1000px;
+	height: 660px;
+	background-color: #312B20;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+
+header{
+	width: 1000px;
+	height: 77px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #1F0909; filter: ;
+}
+
+#contenedor_logo{
+	padding-left: 5px;
+	height: 77px;
+	width: 200px;
+	background-color: #1F0909;
+	align-content: center;
+	float: left;
+
+}
+
+
+nav{width: 374px;
+	height: 36px;
+	background-color: #1F0909;
+	float: right;
+	margin-top: 25px;
+	text-align: right;
+	padding-right: 25px;
+}
+
+nav a{
+    text-decoration:none;
+    color:inherit;
+    font-size:20px;
+    } 
+    nav li{
+    display:inline-block;
+    width:20%;
+    padding:5px 10px;
+    background-color:#46392D;
+    border:1px solid #000;
+    text-align:center;
+    color:#fff;
+    }
+
+    nav li:hover{
+    background-color:#fff;
+    color:#000;
+    }
+
+
+
+
+/* Section de INDEX */
+
+#section1{
+	width: 1000px;
+	height: 540px;
+	background-image: url(../img/fondo_nue.jpg)
+
+}
+
+/* Article de INDEX*/
+
+#article1 {width: 350px;
+	height: 540;
+	padding: 30px;
+	margin-left: auto;
+	margin-right: auto;
+
+	float: left;
+	background-color: ;
+	text-align: center;
+	border-image-width: 20px;
+}
+
+
+
+
+/* Section de CONCURSO */
+#section2{
+	width: 1000px;
+	height: 540px;
+	background-image: url(../img/concurso.jpg)
+
+}
+
+
+/* Article de CONCURSO */
+
+#article2 {width: 480px;
+	height: 520px;
+	margin-top: 20px;
+	padding-bottom: 0px;
+	float: right;
+	text-align: center;
+	border-image-width: 20px;
+	background-color: ;
+}
+
+/* CSS del formulario de CONCURSO */
+
+form{
+	width: 390px;
+	background-color: #1F0909;
+	color: #ffffff;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	padding: 10px;
+	border-width:1px ;
+	border-style: solid;
+	border-color: #312B20;
+}
+
+.cajas{
+width: 100%;
+color: #1F0909;
+}
+
+.boton{
+width: 25%;
+height: 30px;
+color: #ffffff;
+background-color: #312B20;
+margin-top: 10px;
+margin-right: 5px;
+font-size: 15px;
+font-family: 'Bebas Neue', cursive;
+}
+
+/* Fin CSS concurso */
+
+
+/* Section de PERSONAJES */
+#section3{
+	width: 1000px;
+	height: 539px;
+	background-image: url(../img/personajes2.jpg)
+}
+
+
+/* Article de PERSONAJES */
+
+
+		/* TEXTO */
+
+		#article3 {width: 500px;
+			height: 230px;
+			padding-top: 100px;
+			margin-left: auto;
+			margin-right: auto;
+
+			float: left;
+			background-color: ;
+			text-align: center;
+			border-image-width: 20px; }
+
+
+
+		/* GALERIA */
+
+		#article4 {width: 1000px;
+			height: 150px;
+			padding: 0px;
+			margin-left: auto;
+			margin-right: auto;
+
+			float: left;
+			background-color: ;
+			text-align: center;
+			border-image-width: 20px;
+		}
+
+/* Fin article personajes */
+
+
+/* Section de TRAILER */
+#section4{
+	width: 1000px;
+	height: 540px;
+	background-color: #312B20;: 
+
+}
+
+/* Article de TRAILER */
+#article5{
+	width: 560px;
+	height: 315px;
+	float: front;
+	padding-left: 0px;
+	padding-top: 0px;
+	margin-top: -200px;
+	margin-left: auto;
+	margin-right: auto;}
+
+.filter{
+	filter: blur(3px);
+	margin-top: 0px;
+}
+
+#article6{
+	width: 560px;
+	height: 315px;
+	float: back;
+	padding-left: 0px;
+	padding-top: 0px;
+	}
+
+}
+
+
+
+
+footer{
+		width: 1000px;
+	height: 44px;
+	background-color: #312B20;
+
+}
+
+
+#logos{ 
+	padding-left: 25px;
+	padding-top: 10px;
+	text-align: left;
+	height: 37px;
+	width: 290px;
+	float: left;
+
+}
+
+#nombre{
+		
+		float: left;
+		height: 31px;
+		width: 245px;
+		text-align: left;
+		padding-left: 140px;
+		padding-top: 13px;
+}
+
+
+#redes{	
+		
+		float: left;
+		height: 44px;
+		width: 260px;
+		text-align: right;
+		margin-top: 10px;
+		padding-left: 15px;
+}
+
+
+
+
+
+
+
+
